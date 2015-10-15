@@ -63,17 +63,10 @@ it. See `windows/README` for more information.
 
 Genetic algorithm version
 -------------------------
-Dr. Mitchell Morris is working on an exciting version of Dominiate that can evolve
-new strategies using genetic algorithms. You can find this version at
-https://github.com/Narmical/dominiate.
-
+This is the part I am currently working on. I am still in the process of setting everything up for it but it is looking good.
 Roadmap
 -------
 Short-term planned features include:
 
-- Implement almost all the cards
-- Don't buy cards that make you instantly lose
-- Test cases, making sure the simulator keeps working in weird situations
-
-Some specific features I hope for Dominiate to eventually have appear tagged
-with "feature" on the Issues list.
+- Implement the genetic code for generating strategies
+- Implement the optimizer for the "First game" kingdom.
