@@ -1,0 +1,192 @@
+Cards that are done (158)
+=========================
+Adventurer
+Alchemist
+Ambassador
+Apothecary
+Apprentice
+Bag of Gold
+Bank
+Baron
+Bazaar
+Bishop
+Border Village
+Bridge
+Bureaucrat
+Cache
+Caravan
+Cartographer
+Cellar
+Chancellor
+Chapel
+City
+Colony
+Conspirator
+Copper
+Coppersmith
+Council Room
+Counting House
+Courtyard
+Crossroads
+Curse
+Cutpurse
+Diadem
+Duchess
+Duchy
+Duke
+Embassy
+Envoy
+Estate
+Expand
+Explorer
+Fairgrounds
+Familiar
+Farming Village
+Farmland
+Feast
+Festival
+Fishing Village
+Followers
+Fool's Gold
+Fortune Teller
+Gardens
+Ghost Ship
+Golem
+Goons
+Grand Market
+Great Hall
+Haggler
+Hamlet
+Harem
+Haven
+Herbalist
+Highway
+Hoard
+Horn of Plenty
+Horse Traders
+Hunting Party
+Ill-Gotten Gains
+Ironworks
+Island
+Jack of All Trades
+Jester
+King's Court
+Laboratory
+Library
+Lighthouse
+Loan
+Lookout
+Mandarin
+Market
+Margrave
+Masquerade
+Menagerie
+Merchant Ship
+Militia
+Mine
+Mining Village
+Minion
+Mint
+Moat
+Monument
+Moneylender
+Mountebank
+Navigator
+Noble Brigand
+Nobles
+Nomad Camp
+Oasis
+Oracle
+Outpost
+Pawn
+Pearl Diver
+Peddler
+Philosopher's Stone
+Pirate Ship
+Platinum
+Potion
+Princess
+Province
+Quarry
+Rabble
+Remake
+Remodel
+Royal Seal
+Saboteur
+Salvager
+Scout
+Scrying Pool
+Sea Hag
+Secret Chamber
+Shanty Town
+Silk Road
+Silver
+Smithy
+Smugglers
+Spice Merchant
+Spy
+Stables
+Steward
+Tactician
+Talisman
+Thief
+Throne Room
+Torturer
+Tournament
+Trade Route
+Trader
+Trading Post
+Transmute
+Treasure Map
+Treasury
+Tribute
+Trusty Steed
+Tunnel
+University
+Upgrade
+Vault
+Venture
+Village
+Vineyard
+Walled Village
+Warehouse
+Watchtower
+Wharf
+Wishing Well
+Witch
+Woodcutter
+Worker's Village
+Workshop
+Young Witch
+
+Cards that still need to be coded (12)
+======================================
+
+Possibly easy cards
+-------------------
+Though they will generally involve defining new decisions, there should be a
+fair amount of code you can reuse for these cards.
+
+Contraband
+Governor
+Swindler (probably needs a list of cards that are likely to suck, plus different strategies for the early/late game)
+
+Not-so-easy cards
+-----------------
+These are likely to require new helper functions or decisions that are hard
+to write.
+
+Black Market (requires a new setup step)
+Develop (the hard part is making the list of choices)
+Embargo (the trick is guessing what your opponent wants)
+Forge (exponentially increasing number of choices!)
+Inn
+Native Village
+
+Difficult cards
+---------------
+In estimated order of difficulty:
+
+Scheme (adds a new sub-phase to cleanup)
+Stash (requires a decision mid-shuffle)
+Possession (will require entirely new kinds of AI decisions)
