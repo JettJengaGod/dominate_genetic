@@ -6,10 +6,11 @@ Bit sequence:
 Number of Kingdom Cards: 10
 Kingdom cards by cost tier:
 
-2: 2
-3: 3
-4: 3
-5: 2
+2 Cost: 2
+3 Cost: 3
+4 Cost: 3
+5 Cost: 2
+6 Cost: 1
 
 Choices:
 
@@ -69,8 +70,8 @@ Order of Cards
     Cellar Moat Silver Village Woodcutter Workshop Militia Remodel Smithy Market Mine
 
 Example bitstring
-                1-10100-001-1                   101-010 100-101-010-101  010-101-010 101-001
-    Tiers: 2,1 4,2,1,3 1,3,2 2,1 5    2  4   5    2  5    2  5   2   5   1
+                1-10100-001-1                   101-010 100-101-010-101  010-101-010 101-001 
+    Tiers: 2,1 4,2,1,3 1,3,2 2,1 5                2  4   5   2  5    2  5   2   5   1
 
 Example strategy based on said bitstring
  {
