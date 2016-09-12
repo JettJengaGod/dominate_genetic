@@ -18,6 +18,8 @@ Dominiate is written in CoffeeScript, which compiles to JavaScript. This means
 it can either run at the command line using node.js, or it can run natively
 in a Web browser!
 
+Dominate was not written by me, it is written by rspeer here is a link to his hosted version.
+http://rspeer.github.io/dominiate
 Documentation
 -------------
 The `docs` directory contains documentation in the "literate programming" style
